@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "219392675473",
+    "project_id": "rayjo-decorama",
+    "storage_bucket": "rayjo-decorama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219392675473:android:03217937834e394b74f930",
+        "android_client_info": {
+          "package_name": "com.example.rayjo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219392675473-6path6jlmivuskkp83fufrmk5g3d270p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rayjo",
+            "certificate_hash": "00179e372b505824114aa7371182a249aed673fc"
+          }
+        },
+        {
+          "client_id": "219392675473-qc1ualc422259erhuvn0nkjgevhhruks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvHjGbKUgS7A_9Qx6IoL9tUNDFMslyWlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219392675473-qc1ualc422259erhuvn0nkjgevhhruks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

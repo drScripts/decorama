@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailTransaction"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_papper"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:textSize="25sp"
+           android:text="@string/detail_page"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="@string/buyer_name"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           />
+       <TextView
+           android:id="@+id/tv_buyer_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:text="@string/example_name"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="@string/buyer_email"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           />
+       <TextView
+           android:id="@+id/tv_buyer_email"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:text="@string/example_email"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="@string/payment_methods"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           />
+       <TextView
+           android:id="@+id/tv_payment_method"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:text="@string/example_payment_method"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="@string/profit"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           />
+       <TextView
+           android:id="@+id/tv_profit"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="12dp"
+           android:text="@string/example_profit"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="40dp"
+           android:text="@string/proof_transaction"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           />
+       <ImageView
+           android:id="@+id/proof_transaction"
+           android:layout_width="149dp"
+           android:layout_height="149dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           android:contentDescription="@string/proof_transaction"
+           android:src="@drawable/decorama_logo"
+           />
+       <Button
+           android:id="@+id/button_back"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:text="@string/back"
+           android:layout_marginEnd="40dp"
+           android:layout_marginStart="40dp"
+           android:background="@drawable/button_background_grey"
+           />
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+

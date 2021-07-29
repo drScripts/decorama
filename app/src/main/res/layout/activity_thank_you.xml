@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThankYou"
+    android:orientation="vertical"
+    android:background="@drawable/background_papper"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/thanks_for_buying"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        />
+
+    <ImageView
+        android:layout_width="239dp"
+        android:layout_height="216dp"
+        android:src="@drawable/decorama_logo"
+        android:layout_gravity="center"
+        android:contentDescription="@string/decorama_logo"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        />
+</LinearLayout>
